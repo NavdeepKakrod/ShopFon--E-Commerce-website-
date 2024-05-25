@@ -1,0 +1,260 @@
+*{
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+.navbar{
+   
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo {
+    height: 50px;
+    width: 150px;
+}
+.logo{
+    color: #ffffff;
+    background-size: cover;
+    font-size: 1.8rem;
+    font-weight: 900;
+    height: 50px;
+    width: 200px;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+
+/* box2 */
+
+.add-firstline{
+    font-size: 0.85rem;
+    color: #cccc;
+    margin-left: 15px;
+    
+}
+.add-secondline{
+    font-size: 1rem;
+    margin-left: 4px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+}
+.nav-search:hover{
+    border:3px solid rgb(103, 57, 219);
+}
+.search-select{
+    background-color: #c9c7c7;
+    width: 50px;
+    display: flex;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    background-color: rgb(59, 182, 77);
+    border-bottom-right-radius:4px ;
+    border-top-right-radius: 4px;
+    color: #1b1818;
+}
+/*  box4 and box 5 */
+
+
+span{
+    font-size: 0.75rem;
+}
+.signin-second{
+    font-size: 1rem;
+    font-weight: 700;
+}
+/* box 6*/
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+
+.panel{
+    height: 40px;
+    background-color: rgb(46, 46, 98);
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+.panel-ops p{
+    
+    margin-left: 20px;
+    display: inline;
+
+}
+.panel-ops{
+    width: 80%;
+    font-size: 0.85rem;
+    display: flex;
+}
+.panel-deals{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* hero section*/
+
+.hero-section{
+    background-image: url(Images/hero_image2.jpg);
+    background-size:cover ;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.hero-msg{
+    background-color: #f9f2f2;
+    color: black;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+.hero-msg a{
+    color: rgb(74, 74, 216);
+}
+
+/* shop section*/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(252, 254, 255);
+    
+}
+.box{
+    width:23% ;
+    height: 300px;
+    background-color: rgb(240, 255, 248);
+    margin-top: 30px;
+    text-align: center;
+}
+.boxend{
+    width:23% ;
+    height: 300px;
+    background-color: rgb(240, 255, 248);
+    margin-top: 30px;
+    text-align: center;
+    
+    margin-bottom: 50px;
+}
+
+.catgry{
+    background-color: #fcfeff ;
+    width: 30%;
+    font-size: small;
+    margin-top: 75%;
+    margin-left: 35%;
+    text-align: center;
+
+}
+
+.endbar{
+    width: 97%;
+    height: 100px;
+    background-color: rgb(42, 43, 53);
+    color: white;
+    background-color: rgb(49, 56, 141);
+    display: flex;
+    margin-left: 25px;
+    
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 2000;
+}
+
+.endbar2{
+    
+    height: 40px;
+    
+    background-color: rgb(42, 43, 53);
+    color: white;
+    
+    display: flex;
+    
+    
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 200;
+}
+.endbar3{
+    
+    height: 400px;
+    
+    background-color: rgb(24, 24, 31);
+    color: white;
+    
+    
+    
+    
+    align-items: center;
+    
+    font-size: 1rem;
+    font-weight: 200;
+}
+.endbar4{
+    
+    height: 100px;
+    
+    background-color: rgb(1, 1, 5);
+    color: white;
+    
+    display: flex;
+    margin-top: 0.5px;
+    
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 200;
+}
+table{
+    
+    height: 200px;
+    width: 1500px;
+    margin-left: 140px;
+    
+}
